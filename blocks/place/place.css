@@ -7,3 +7,7 @@
   row-gap: 48px;
   column-gap: 40px;
 }
+
+.place:last-child {
+  margin: 0;
+}

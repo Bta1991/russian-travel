@@ -1,9 +1,8 @@
-.cover__subtitle{
-  margin: 429px 412px 245px;
+.cover__subtitle {
+  margin: 0 auto 0;
   font-weight: 400;
-font-size: 18px;
-line-height: 1.22;
-text-align: center;
-max-width: calc( 100% - 824px );
-z-index: 5;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  max-width: calc( 100% - 824px );
 }
