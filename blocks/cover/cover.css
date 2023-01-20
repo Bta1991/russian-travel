@@ -1,12 +1,13 @@
-.cover{
-  margin: 0 0 92;
+.cover {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-self: stretch;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0 auto 92px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  max-width: calc(100% - 96px);
   justify-content: center;
-  /* justify-content: space-between; */
-
-
-  max-width: calc( 100% - 96px );
-
+  flex-direction: column;
 }

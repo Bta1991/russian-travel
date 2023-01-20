@@ -1,6 +1,6 @@
 .cover__background {
+  max-width: calc(100% - 96px);
 
-  max-width: 1184px;
   max-height: 740px;
   z-index: 0;
 }
