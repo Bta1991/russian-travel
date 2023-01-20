@@ -1,0 +1,12 @@
+.cover{
+  margin: 0 0 92;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+
+
+  max-width: calc( 100% - 96px );
+
+}

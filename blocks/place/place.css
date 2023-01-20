@@ -1,0 +1,9 @@
+.place {
+  margin: 0 0 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: fit-content(460px), fit-content(484px); */
+  grid-template-rows: fit-content(152px), 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+}
