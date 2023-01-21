@@ -3,10 +3,10 @@
   list-style-type: none;
 }
 
-.header__links :first-child{
+.header__links :first-child {
   margin-right: 18px;
 }
 
-.header__links :last-child{
+.header__links :last-child {
   margin-right: 0;
-  }
+}

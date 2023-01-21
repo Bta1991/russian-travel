@@ -1,9 +1,31 @@
 .cover__title {
   margin: 0 auto 32px;
   padding: 245px 0 0;
-  max-width: calc( 100% - 624px );
+  /* max-width: calc(100% - 624px); */
+  max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    padding: 195px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding: 115px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    padding: 33px 0 0;
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 288px;
+  }
 }

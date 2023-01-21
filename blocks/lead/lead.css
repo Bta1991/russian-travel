@@ -1,15 +1,16 @@
-.lead{
+.lead {
   margin: 0 auto 92px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: calc( 100% - 296px );
+  max-width: calc(100% - 296px);
 }
 
 @media screen and (max-width: 1024px) {
   .lead {
-    max-width: calc( 100% - 96px );
+    max-width: calc(100% - 96px);
   }
 }
 
@@ -22,6 +23,6 @@
 @media screen and (max-width: 320px) {
   .lead {
     margin: 0 auto 64px;
-    max-width: calc( 100% - -4px );
+    max-width: calc(100% - 4px);
   }
 }

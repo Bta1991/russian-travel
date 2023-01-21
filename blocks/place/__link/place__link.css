@@ -1,27 +1,18 @@
-.place__link.css{
+.place__link {
   max-width: 456px;
   font-weight: 400;
-font-size: 18px;
-line-height: 1.22;
-}
-
-
-@media screen and (max-width: 1024px) {
-  .place__paragraphs {
-
-  }
+  font-size: 18px;
+  line-height: 1.22;
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraphs {
+  .place__link {
     max-width: 352px;
-
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__paragraphs {
+  .place__link {
     max-width: 288px;
-
   }
 }
