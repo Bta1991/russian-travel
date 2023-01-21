@@ -15,4 +15,4 @@
 
 **Ссылка на GitHub Pages**
 Проект доступен по ссылке:
-[Путешествия по России](https://tinypng.com/)
+[Путешествия по России](https://bta1991.github.io/russian-travel/)
