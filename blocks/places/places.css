@@ -1,7 +1,28 @@
-.places{
+.places {
   display: flex;
   margin: 0 auto 92px;
   max-width: calc( 100% - 296px );
   flex-direction: column;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: calc( 100% - 96px );
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 0 auto 90px;
+  max-width: calc( 100% - 48px );
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin: 0 auto 66px;
+  max-width: 320px;
+  }
 }

@@ -4,3 +4,20 @@
   justify-content: end;
   align-items: start;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__website{
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website{
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+
+
+  }
+}
