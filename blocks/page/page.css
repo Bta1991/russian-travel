@@ -12,16 +12,6 @@
   color: #ffffff;
 }
 
-/* стиль для гиперссылок */
-a {
-  color: #ffffff;
-  transition: 1s;
-}
-a:hover {
-  opacity: 0.8;
-  transition: 0.3s;
-}
-
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;

@@ -6,6 +6,7 @@
   background-size: cover;
   z-index: 0;
   text-decoration: none;
+  color: #ffffff;
 }
 
 .cover__link::before {

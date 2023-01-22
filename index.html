@@ -11,10 +11,15 @@
       <img class="header__logo" src="./images/header-logo.svg" alt="Россия" />
       <ul class="header__links">
         <li>
-          <a class="header__lang-link" href="#">Ru</a>
+          <a
+            class="header__lang-link header__lang-link_active"
+            href="#"
+            target="_self"
+            >Ru</a
+          >
         </li>
         <li>
-          <a class="header__lang-link" href="#">En</a>
+          <a class="header__lang-link" href="#" target="_self">En</a>
         </li>
       </ul>
     </header>
@@ -53,7 +58,7 @@
           <li class="intro__list-item"><b>Аэропортов</b> 241</li>
         </ul>
       </section>
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="фотографии мест России">
         <img
           class="photo-grid__item"
           src="./images/photo-grid-train.jpg"
@@ -116,12 +121,14 @@
         />
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
 
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank"
+              >park-kosa.ru</a
+            >
           </div>
           <img
             class="place__image"
@@ -144,9 +151,9 @@
               прохладного моря.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
 
           <div class="place__website">
@@ -154,6 +161,7 @@
             <a
               class="place__link"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              target="_blank"
               >National Geographic</a
             >
           </div>
@@ -178,9 +186,9 @@
               в Мурманск.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
 
           <div class="place__website">
@@ -188,6 +196,7 @@
             <a
               class="place__link"
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              target="_blank"
               >Facebook</a
             >
           </div>
@@ -211,14 +220,17 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
 
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://vk.com/baikalmile"
+            <a
+              class="place__link"
+              href="https://vk.com/baikalmile"
+              target="_blank"
               >https://vk.com/baikalmile</a
             >
           </div>
@@ -241,13 +253,14 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
 
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://vodlozero.ru"
+            <a class="place__link" href="http://vodlozero.ru" target="_blank"
               >http://vodlozero.ru</a
             >
           </div>
@@ -269,13 +282,14 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
         <a
           class="cover__link"
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
         >
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">
@@ -285,29 +299,44 @@
         </a>
       </section>
     </main>
-    <footer class="footer">
+    <nav class="footer">
       <ul class="footer__links">
         <li>
-          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          <a class="footer__link" href="https://yandex.ru/maps" target="_blank"
+            >Карты</a
+          >
         </li>
         <li>
-          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          <a
+            class="footer__link"
+            href="https://yandex.ru/pogoda"
+            target="_blank"
+            >Погода</a
+          >
         </li>
         <li>
-          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank"
+            >Расписание</a
+          >
         </li>
         <li>
-          <a class="footer__link" href="https://calendar.yandex.ru"
+          <a
+            class="footer__link"
+            href="https://calendar.yandex.ru"
+            target="_blank"
             >Календарь</a
           >
         </li>
         <li>
-          <a class="footer__link" href="https://travel.yandex.ru"
+          <a
+            class="footer__link"
+            href="https://travel.yandex.ru"
+            target="_blank"
             >Путешествия</a
           >
         </li>
       </ul>
       <p class="footer__copyright">&copy; Tanya Batrachenko</p>
-    </footer>
+    </nav>
   </body>
 </html>
