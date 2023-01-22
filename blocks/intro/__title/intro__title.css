@@ -17,5 +17,7 @@
     max-width: 288px;
     line-height: 1.09;
     font-size: 32px;
+    /* для 100% совпадения текста с макетом добавила padding*/
+    padding-right: 40px;
   }
 }
