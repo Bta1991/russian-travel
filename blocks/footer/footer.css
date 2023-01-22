@@ -11,9 +11,12 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 670px) {
   .footer {
     flex-direction: column;
     margin: 0 0 24px 16px;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
   }
 }

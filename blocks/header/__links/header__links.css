@@ -1,6 +1,9 @@
 .header__links {
+  margin: 0;
+  padding: 0;
   display: flex;
   list-style-type: none;
+  align-self: center;
 }
 
 .header__links :first-child {
